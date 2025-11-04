@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l\'intégration Cloud GCP App');
+  res.send('Bienvenue dans l\'intégration de l\'application Cloud GCP.');
 });
 
 app.listen(PORT, () => {
