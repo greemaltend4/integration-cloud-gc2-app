@@ -1,0 +1,17 @@
+{
+  "name": "integration-cloud-gc2-app",
+  "version": "1.0.0",
+  "description": "Application pour gérer la configuration et la synchronisation des données entre plusieurs services cloud.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "author": "Votre Nom",
+  "license": "MIT"
+}
